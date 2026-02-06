@@ -1,0 +1,14 @@
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\bin\Debug\net10.0\Assesment_1.exe
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\bin\Debug\net10.0\Assesment_1.deps.json
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\bin\Debug\net10.0\Assesment_1.runtimeconfig.json
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\bin\Debug\net10.0\Assesment_1.dll
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\bin\Debug\net10.0\Assesment_1.pdb
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.AssemblyInfoInputs.cache
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.AssemblyInfo.cs
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.csproj.CoreCompileInputs.cache
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.dll
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\refint\Assesment_1.dll
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.pdb
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\Assesment_1.genruntimeconfig.cache
+C:\Users\nijbh.NIJ\OneDrive\Desktop\Internship\dotnet\Assesment_1\obj\Debug\net10.0\ref\Assesment_1.dll
