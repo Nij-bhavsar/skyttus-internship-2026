@@ -1,0 +1,9 @@
+@model Assesment_8.Models.Student
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input asp-for="Name" />
+    <input asp-for="Age" />
+    <input asp-for="Course" />
+    <button type="submit">Update</button>
+</form>
