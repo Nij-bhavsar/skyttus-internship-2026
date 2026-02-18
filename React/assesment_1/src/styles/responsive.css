@@ -1,0 +1,100 @@
+/* ---------- Mobile (< 768px) ---------- */
+@media screen and (max-width: 768px) {
+
+  .header {
+    padding: var(--spacing-xs) 0;
+  }
+
+  /* Navbar (React Toggle Ready) */
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--section-bg);
+    padding: 6rem var(--spacing-m) var(--spacing-m);
+    transition: 0.3s ease;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.2);
+    z-index: 98;
+    display: flex;
+  }
+
+  .navbar.active {
+    right: 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    margin: 0 0 var(--spacing-s) 0;
+    width: 100%;
+  }
+
+  .navbar ul li a {
+    display: block;
+    padding: var(--spacing-xs) 0;
+  }
+
+  /* Hamburger visible */
+  .hamburger {
+    display: block;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  /* React animation support */
+  .hamburger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .hero-section {
+    padding-top: 4rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1.8rem;
+  }
+
+  .image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-filters {
+    flex-wrap: wrap;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
