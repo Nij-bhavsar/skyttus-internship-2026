@@ -1,5 +1,3 @@
-import resume from "../assets/Nij_Bhavsar_Resume.pdf";
-
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -34,15 +32,6 @@ const Header = () => {
             <li><Link to="/skills" className={`nav-link ${isActive("/skills")}`} onClick={closeMenu}>Skills</Link></li>
             <li><Link to="/projects" className={`nav-link ${isActive("/projects")}`} onClick={closeMenu}>Projects</Link></li>
             <li><Link to="/contact" className={`nav-link ${isActive("/contact")}`} onClick={closeMenu}>Contact</Link></li>
-
-            <a
-              href={resume}
-              className="resume-btn"
-              download="Nij_Bhavsar_Resume.pdf"
-              onClick={closeMenu}
-            >
-              Download Resume
-            </a>
           </ul>
         </nav>
 

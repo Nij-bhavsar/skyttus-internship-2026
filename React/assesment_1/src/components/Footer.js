@@ -12,7 +12,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <p>© 2025 Nij Bhavsar. All Rights Reserved.</p>
+          <p>© 2026 Nij Bhavsar. All Rights Reserved.</p>
 
         </div>
       </div>

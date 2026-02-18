@@ -33,7 +33,7 @@ const Projects = () => {
       category: "Web",
       image: tracelly,
       desc: "Website to report lost items easily.",
-      tags: ["React JS", "Node", "Express"]
+      tags: [ "ReactJS", "Node", "Express"]
     },
     {
       title: "NB's Gaming Hub",
