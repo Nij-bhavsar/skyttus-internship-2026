@@ -1,61 +1,86 @@
+/* SECTION */
 .contact-section {
-  padding: 80px 0;
-  background: #131413;
+  background: #f5f7f9;
+  padding: 80px 10%;
 }
 
-.contact-container {
+/* TITLE */
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  color: #1f2d3d;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background: #3b82f6;
+  margin: 10px auto;
+}
+
+/* WRAPPER */
+.contact-wrapper {
   display: flex;
-  gap: 50px;
-  max-width: 1200px;
-  margin: auto;
-  align-items: flex-start;
-  padding: 0 20px;
+  justify-content: space-between;
+  gap: 120px;   /* increased space */
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 /* LEFT SIDE */
 .contact-left {
   flex: 1;
+  min-width: 280px;
+  padding-left: 20px;
 }
 
 .contact-left h3 {
-  font-size: 28px;
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.contact-left p {
+.contact-text {
   color: #6b7280;
   margin-bottom: 30px;
+  line-height: 1.6;
 }
 
-.contact-item {
+/* CONTACT INFO */
+.contact-info p {
   display: flex;
   align-items: center;
-  gap: 15px;
   margin-bottom: 20px;
-  color: #6b7280;
+  color: #4b5563;
+  font-size: 15px;
 }
 
-.contact-item .icon {
-  color: #000000;
-  font-size: 20px;
+.contact-info .icon {
+  color: #3b82f6;
+  margin-right: 15px;
+  font-size: 18px;
 }
 
-/* SOCIAL */
+/* SOCIAL ICONS */
 .social-icons {
-  display: flex;
-  gap: 15px;
   margin-top: 30px;
 }
 
 .social-icons a {
-  width: 40px;
-  height: 40px;
-  background: #e5e7eb;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin-right: 12px;
   border-radius: 50%;
+  background: #e5e7eb;
   color: #1f2937;
+  font-size: 18px;
   transition: 0.3s;
 }
 
@@ -67,21 +92,26 @@
 /* RIGHT SIDE */
 .contact-right {
   flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
 }
 
 .contact-right form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
+/* INPUTS */
 .contact-right input,
 .contact-right textarea {
+  width: 100%;
   padding: 14px;
+  margin-bottom: 15px;
   border: none;
-  background: #e7ebf4;
-  border-radius: 5px;
+  border-radius: 6px;
+  background: #e5e7eb;
   font-size: 14px;
+  outline: none;
 }
 
 .contact-right textarea {
@@ -89,12 +119,13 @@
   resize: none;
 }
 
+/* BUTTON */
 .contact-right button {
   width: 150px;
-  padding: 12px;
-  border: 1px solid #000000;
+  padding: 10px;
+  border: 1px solid #3b82f6;
   background: transparent;
-  color: #000000;
+  color: #3b82f6;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -106,8 +137,8 @@
 }
 
 /* RESPONSIVE */
-@media(max-width: 768px) {
-  .contact-container {
+@media (max-width: 768px) {
+  .contact-wrapper {
     flex-direction: column;
   }
 }

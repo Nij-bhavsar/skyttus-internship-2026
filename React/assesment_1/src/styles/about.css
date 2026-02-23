@@ -1,0 +1,106 @@
+.about-section {
+  padding: 80px 8%;
+  background: #f5f6f7;
+}
+
+/* Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2c2f3f;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background: #4a7cff;
+  margin: 10px auto;
+}
+
+/* Layout */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Left Image */
+.about-left img {
+  width: 520px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Right Content */
+.about-right {
+  flex: 1;
+}
+
+.about-right h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.about-right p {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* Education */
+.edu-heading {
+  color: #4a7cff;
+  margin: 25px 0 15px;
+  font-size: 18px;
+}
+
+.edu-box {
+  border-left: 3px solid #4a7cff;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.edu-box h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.edu-box span {
+  font-size: 14px;
+  color: #666;
+}
+
+.edu-box p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-left img {
+    width: 100%;
+  }
+
+  .about-right {
+    margin-top: 30px;
+  }
+
+  .edu-box {
+    text-align: left;
+  }
+}
