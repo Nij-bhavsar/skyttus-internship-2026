@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+}
+
+/* Layout */
+.counter-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.counter-card {
+  background: white;
+  padding: 40px;
+  width: 320px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.counter-card h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Count */
+.count-display {
+  font-size: 50px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+/* Warning */
+.warning {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+/* Styles */
+.increase {
+  background: #22c55e;
+  color: white;
+}
+
+.increase:hover {
+  background: #16a34a;
+}
+
+.decrease {
+  background: #ef4444;
+  color: white;
+}
+
+.decrease:hover {
+  background: #dc2626;
+}
+
+.reset {
+  background: #e5e7eb;
+}
+
+.reset:hover {
+  background: #d1d5db;
+}
+
+/* Disabled */
+.decrease:disabled {
+  background: #fecaca;
+  cursor: not-allowed;
+}
