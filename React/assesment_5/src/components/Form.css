@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+}
+
+/* Center Layout */
+.form-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Professional Card */
+.glass-card {
+  background: #ffffff;
+  padding: 40px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Heading */
+.glass-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e293b;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #64748b;
+}
+
+.input-group input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+}
+
+/* Error */
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 3px;
+}
+
+/* Password Strength */
+.strength {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.strength.weak { color: red; }
+.strength.medium { color: orange; }
+.strength.strong { color: green; }
+
+/* Success */
+.success-msg {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+}
+
+.reset-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: white;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #f1f5f9;
+}
