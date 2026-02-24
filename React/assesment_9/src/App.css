@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn { background: #5c6c98; color: white; }
+.edit-btn { background: #ffc107; }
+.delete-btn { background: #dc3545; color: white; }
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
