@@ -1,0 +1,124 @@
+/* Page Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+}
+
+/* Section Wrapper */
+.user-wrapper {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.user-wrapper h2 {
+  font-size: 30px;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* User Card */
+.user-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: left;
+  transition: 0.25s ease;
+  border: 1px solid #e5e7eb;
+}
+
+/* Hover */
+.user-card:hover {
+  transform: translateY(-3px);
+  border-color: #2563eb;
+}
+
+/* Active Card Highlight */
+.user-card.active {
+  border-left: 5px solid #22c55e;
+}
+
+/* Name */
+.user-card h3 {
+  margin: 0;
+  color: #111827;
+  font-size: 18px;
+}
+
+/* Email */
+.user-card p {
+  margin: 6px 0 14px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Status Badge */
+.status {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+/* Active */
+.on {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+/* Inactive */
+.off {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Button Group */
+.btn-group {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+.btn {
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Toggle Button */
+.toggle {
+  background: #2563eb;
+  color: white;
+}
+
+.toggle:hover {
+  background: #1d4ed8;
+}
+
+/* Delete Button */
+.delete {
+  background: #ef4444;
+  color: white;
+}
+
+.delete:hover {
+  background: #dc2626;
+}
+
+/* Empty Message */
+.no-users {
+  font-size: 18px;
+  color: #6b7280;
+}
