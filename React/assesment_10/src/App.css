@@ -1,0 +1,147 @@
+/* Modern Gradient Background */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  min-height: 100vh;
+  color: white;
+}
+
+/* Container */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Title */
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Grid Layout (Floating Feel) */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 30px;
+}
+
+/* Glassmorphism Card */
+
+.product-card {
+  position: relative;
+  backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 25px;
+  transition: 0.4s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+  overflow: hidden;
+}
+
+/* Floating Glow */
+
+.product-card::before {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -60%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0,255,255,0.2), transparent 70%);
+  transform: rotate(25deg);
+  transition: 0.5s;
+}
+
+.product-card:hover::before {
+  top: -40%;
+  left: -40%;
+}
+
+/* Hover Lift */
+
+.product-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+/* Image */
+
+.product-card img {
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.4));
+}
+
+/* Title */
+
+.product-card h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  min-height: 40px;
+}
+
+/* Side Price Tag */
+
+.price {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: linear-gradient(to right, #75c697, #2e4964);
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Button */
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to right, #48362d, #cd4a4c);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  letter-spacing: 1px;
+}
+
+/* Loading / Error */
+
+.status {
+  text-align: center;
+  font-size: 18px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+.brand {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.rating {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #ffd700;
+}
